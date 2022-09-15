@@ -1,5 +1,4 @@
-NAME        : SATHISHKUMAR.V
-REGISTER NO :713919106027
-COLLEGE     :SRI RANGANATHAR INSTITUTE OF ENGINEERING AND TECHNOLOGY
-DESCRIPTION :Assignment 1:Portfolio
-Developed using HTML and CSS
+Name:Gnanaprakash R
+Reg No:713919106011
+College:Sri Ranganathar institute of engineering and technology
+Descripion:Resume developed by CSS and HTML

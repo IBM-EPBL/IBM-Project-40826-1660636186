@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <body>
+    <a href="/"><button >home</button></a> 
+  
+ 
+   
+<form action = "{{ url_for('list') }}" methods="post">
+    <h3>Student Information</h3>
+    Name<br>
+    <input type = "text" name="Name" /></br>
+    
+    Reg  NO<br>
+    <textarea name="Reg No" ></textarea><br>
+    
+    College<br>
+    <input type = "text" name="college" /><br>
+    
+    Location of college <br>
+    <input type = "text" name="pin" /><br><br>
+   
+      <input type = "submit" value = "submit" /><br>
+    
+    
+ </form>
+   
+
+ </body>
+</html>

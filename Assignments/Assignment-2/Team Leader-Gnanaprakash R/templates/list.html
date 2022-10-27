@@ -1,0 +1,39 @@
+<body><a href="/"><button >home</button></a></body>
+<title>student details</title>
+{% endblock%} {% block body%}
+<div class="container">
+  <a href="/list"><button class="btn btn-danger m-3">list</button></a>
+  <br />
+  <table class="table table-bordered">
+    <thead >
+      <th scope="col">
+        Name
+      </th>
+      <th scope="col">
+        Phone
+      </th>
+      <th scope="col">
+        Edit
+      </th>
+      <th scope="col"> 
+        Delete
+      </th>
+    </thead>
+
+    <tbody>
+      {% for x in user %}
+      <tr>
+        <td>{{ x.name }}</td>
+        <td>{{ x.contact }}</td>
+        <td>
+          <a href="/edit/{{x.name}}"><button class="btn btn-primary">Edit</button></a>
+        </td>
+        <td>
+          <a href="/delete/{{x.name}}"><button class="btn btn-danger">Delete</button></a>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endblock%}
